@@ -1,0 +1,22 @@
+# Data (too large for GitHub)
+data/raw/*/pdfs/
+data/raw/**/*.json
+data/training/*.json
+data/training/parsed_arxiv_pdfs.json
+
+# Model outputs (too large)
+outputs/
+
+# Python
+*.pyc
+__pycache__/
+
+# Slurm logs
+slurm-*.out
+slurm-*.err
+
+# Logs
+*.log
+
+# HF cache
+.hf_cache/
