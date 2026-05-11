@@ -72,6 +72,8 @@ v
 | GPU | NVIDIA A100 40GB |
 
 ## Project Structure
+
+```
 hydro-expert-llm/
 ├── src/
 │   ├── data_prep/
