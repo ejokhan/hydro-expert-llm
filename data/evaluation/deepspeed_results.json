@@ -1,0 +1,10 @@
+{
+  "method": "DeepSpeed ZeRO-2 Full Fine-tune",
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "gpus": 2,
+  "training_time_hours": 0.08876864122019874,
+  "eval_loss": 2.1970720291137695,
+  "trainable_params": 7248023552,
+  "trainable_pct": 100.0,
+  "smoke_test": true
+}

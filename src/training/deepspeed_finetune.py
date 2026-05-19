@@ -21,7 +21,7 @@ from trl import SFTTrainer
 
 DATA_PATH = "/work/10655/ejokhan123/ls6/hydro-finetune/data/training/qa_pubmed_gpu.json"
 OUTPUT_DIR = "/work/10655/ejokhan123/ls6/hydro-finetune/outputs/hydro-mistral-deepspeed"
-DS_CONFIG = "/work/10655/ejokhan123/ls6/hydro-finetune/configs/ds_zero2.json"
+DS_CONFIG = "/work/10655/ejokhan123/ls6/hydro-finetune/configs/ds_zero3.json"
 RESULTS_JSON = "/work/10655/ejokhan123/ls6/hydro-finetune/data/evaluation/deepspeed_results.json"
 
 SMOKE_TEST = os.environ.get("HYDRO_SMOKE", "0") == "1"
