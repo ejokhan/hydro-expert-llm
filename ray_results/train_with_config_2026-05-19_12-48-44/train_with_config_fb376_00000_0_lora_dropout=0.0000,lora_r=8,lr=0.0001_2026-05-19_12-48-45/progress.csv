@@ -1,0 +1,2 @@
+eval_loss,train_loss,lora_r,lr,dropout,timestamp,checkpoint_dir_name,done,training_iteration,trial_id,date,time_this_iter_s,time_total_s,pid,hostname,node_ip,time_since_restore,iterations_since_restore
+2.082730770111084,2.06149845123291,8,5e-05,0.0,1779213169,,True,1,fb376_00000,2026-05-19_12-52-49,233.05115032196045,233.05115032196045,1983791,c304-001.ls6.tacc.utexas.edu,129.114.41.73,233.05115032196045,1

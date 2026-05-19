@@ -15,8 +15,9 @@ export LD_LIBRARY_PATH=$(python -c "import torch; print(torch.__path__[0])")/lib
 export HF_HOME=/work/10655/ejokhan123/ls6/hydro-rag/.hf_cache
 export HF_TOKEN=$(python -c "from huggingface_hub import get_token; print(get_token())")
 export TOKENIZERS_PARALLELISM=false
+export CUDA_HOME=/opt/apps/cuda/12.2
 export PYTHONUNBUFFERED=1
-export RAY_TMPDIR=/work/10655/ejokhan123/ls6/hydro-finetune/ray_tmp
+export RAY_TMPDIR=/tmp/ray_hydro
 cd /work/10655/ejokhan123/ls6/hydro-finetune
 
 python src/training/ray_tune_qlora.py
