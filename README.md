@@ -135,6 +135,7 @@ hydro-expert-llm/
 │       └── ray_tune_results.json     # 24-config sweep results
 └── outputs/
 └── hydro-mistral-qlora/          # LoRA adapter weights
+```
 
 ## Quick Start
 
