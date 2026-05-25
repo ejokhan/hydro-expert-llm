@@ -107,6 +107,8 @@ v
 | Eval Loss | 1.492 |
 
 ## Project Structure
+
+```
 hydro-expert-llm/
 ├── src/
 │   ├── data_prep/
